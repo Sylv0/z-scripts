@@ -3,7 +3,7 @@
 printf "This script will install 'z' by 'rupa', from https://github.com/rupa/z\nDo you want to continue? (y)es/(n)o)\n"
 read confirm
 
-if [[ -z $confirm ] || [$confirm^^ == 'Y'] || [$confirm^^ == 'YES'] ]]; then
+if [[-z $confirm ] || [$confirm^^ == 'Y'] || [$confirm^^ == 'YES']]; then
   echo "Please enter the location to install z in (leave empty for $HOME/z):"
   read installDir
 
