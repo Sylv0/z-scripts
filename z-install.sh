@@ -3,7 +3,7 @@
 printf "This script will install 'z' by 'rupa', from https://github.com/rupa/z\nDo you want to continue? (y)es/(n)o)\n"
 read confirm
 
-if [[ -z $confirm || $confirm^^ == 'Y' ]]; then
+if [[ -z $confirm || $confirm^^ == 'Y' || $confirm^^ == 'YES']]; then
   echo "Please enter the location to install z in (leave empty for $HOME/z):"
   read installDir
 
@@ -45,7 +45,4 @@ if [[ -z $confirm || $confirm^^ == 'Y' ]]; then
   tput setaf 3; printf "\nNote that you need to cd around a bit to build up the database for z to use.\n\n"
 else
   tput setaf 1; echo "Aborted installation."
-  return
 fi
-
-
