@@ -1,4 +1,4 @@
-# z-install-upgrade-scripts
+# z-scripts
 Install and update scripts for '[z'](https://github.com/rupa/z) by [rupa](https://github.com/rupa), from https://github.com/rupa/z.
 
 ## Usage
