@@ -3,10 +3,13 @@ Install and update scripts for '[z'](https://github.com/rupa/z) by [rupa](https:
 
 ## Usage
 
+**WARNING: Use on your own risk**
+
 ### Installing z
-1. Execute `bash <(curl -s https://raw.githubusercontent.com/edvwib/z-install-upgrade-scripts/master/z-install.sh)` in the terminal.
+1. Execute `bash <(curl -s https://raw.githubusercontent.com/edvwib/z-scripts/master/z-install.sh)` in the terminal.
 2. Follow the instructions.
 3. You're done, make sure to restart your terminal in order to use the new command.
 
 ### Upgrading z
-soon™
+1. Execute `bash <(curl -s https://raw.githubusercontent.com/edvwib/z-scripts/master/z-update.sh)` in the terminal. **Note:** Depending on where z was previously installed, the script will ask you for confirmation to overwrite and move a couple of files.
+2. Restart your terminal and you're done.
