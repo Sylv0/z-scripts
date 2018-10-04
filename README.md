@@ -1,6 +1,11 @@
 # z-scripts
 Install and update scripts for '[z'](https://github.com/rupa/z) by [rupa](https://github.com/rupa), from https://github.com/rupa/z.
 
+## Contents
+* [Usage](#usage)
+* [Installing z](#installing-z)
+* [Upgrading z](#upgrading-z)
+
 ## Usage
 
 **WARNING: Use at your own risk**
