@@ -3,7 +3,7 @@ Install and update scripts for '[z'](https://github.com/rupa/z) by [rupa](https:
 
 ## Usage
 
-**WARNING: Use on your own risk**
+**WARNING: Use at your own risk**
 
 ### Installing z
 1. Execute `bash <(curl -s https://raw.githubusercontent.com/edvwib/z-scripts/master/z-install.sh)` in the terminal.
